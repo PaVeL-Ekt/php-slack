@@ -2,9 +2,9 @@
 
 namespace PavelEkt\PhpSlack\exceptions;
 
-use PavelEkt\BaseComponents\Abstracts\BaseMessageException;
+use PavelEkt\BaseComponents\Abstracts\BaseFixMessageException;
 
-class EmptyTextException extends BaseMessageException
+class EmptyTextException extends BaseFixMessageException
 {
     /**
      * @const int EXCEPTION_CODE The Exception code.
