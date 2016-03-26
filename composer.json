@@ -1,7 +1,11 @@
 {
   "name": "pavel-ekt/php-slack",
   "description": "Slack webhook and bot components.",
-  "keywords": ["slack", "webhook", "bot"],
+  "keywords": [
+    "slack",
+    "webhook",
+    "bot"
+  ],
   "homepage": "https://github.com/pavel-ekt/php-slack",
   "license": "BSD-3-Clause",
   "minimum-stability": "dev",
@@ -13,11 +17,12 @@
   ],
   "require": {
     "php": ">= 5.4",
-    "pavel-ekt/base-components": "1.0"
+    "pavel-ekt/base-components": "1.1"
   },
   "autoload": {
     "psr-4": {
       "PavelEkt\\PhpSlack\\": "src",
+      "PavelEkt\\PhpSlack\\Abstracts\\": "src/abstracts",
       "PavelEkt\\PhpSlack\\Exceptions\\": "src/exceptions"
     }
   }
